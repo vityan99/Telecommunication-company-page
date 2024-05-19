@@ -1,0 +1,27 @@
+@import "../base/mixins";
+
+.slide {
+  padding: 0 78px;
+  margin-bottom: 117px;
+
+  &__image {
+    @include bgImg;
+    background-image: url("../img/slide.png");
+    padding: 152px 638px 152px 64px;
+  }
+
+  &__title {
+    font-family: var(--font-bold);
+    max-width: 580px;
+    font-size: 70px;
+    line-height: 76px;
+  }
+
+  &__title-normal {
+    color: var(--white-color);
+  }
+
+  &__title-accent {
+    color: var(--accent-color);
+  }
+}

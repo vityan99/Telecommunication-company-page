@@ -1,0 +1,78 @@
+.advantages {
+  padding: 110px 0;
+  background-color: var(--bg-custom-color);
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  &__card {
+    padding: 68px 18px 66px 28px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  &__card_bg-none {
+    padding: 39px 13px 30px 10px;
+    background-color: transparent;
+  }
+
+  &__card_bg-accent {
+    &:hover {
+      background-color: var(--accent-color);
+      transition: 0.4s;
+
+      .advantages__card-number,
+      .advantages__card-title,
+      .advantages__card-text {
+        color: var(--white-color);
+      }
+    }
+  }
+
+  &__title {
+    line-height: 67px;
+    max-width: 334px;
+  }
+
+  &__descr {
+    font-family: var(--font-regular);
+    color: var(--darkgrey-color);
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 323px;
+  }
+
+  &__card-number {
+    font-family: var(--font-bold);
+    color: var(--accent-color);
+    font-size: 58px;
+    line-height: 30px;
+    margin-bottom: 27px;
+    transition: 0.4s;
+  }
+
+  &__card-title {
+    font-family: var(--font-bold);
+    color: var(--medium-darkgrey-color);
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 13px;
+    transition: 0.4s;
+  }
+
+  &__card-text {
+    font-family: var(--font-regular);
+    color: var(--light-darkgrey-color);
+    max-width: 312px;
+    transition: 0.4s;
+  }
+}

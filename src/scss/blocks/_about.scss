@@ -1,0 +1,49 @@
+.about {
+  padding: 44px 150px 70px 150px;
+  margin-bottom: 164px;
+  background-color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 67px;
+
+  &__left {
+    max-width: 532px;
+  }
+
+  &__title {
+    color: var(--white-color);
+    margin-bottom: 5px;
+  }
+
+  &__descr {
+    color: var(--white-color);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  &__btn-read {
+    background-color: var(--white-color);
+    margin-right: 31px;
+    transition: 0.4s;
+
+    &:hover {
+      transition: 0.4s;
+      background-color: var(--black-color);
+      color: var(--white-color);
+    }
+  }
+
+  &__btn-contact {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    transition: 0.4s;
+
+    &:hover {
+      transition: 0.4s;
+      background-color: var(--white-color);
+      color: var(--black-color);
+    }
+  }
+}

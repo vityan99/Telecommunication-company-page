@@ -1,0 +1,56 @@
+@import "../base/mixins";
+
+.experience {
+  margin-bottom: 112px;
+
+  &__title {
+    margin-bottom: 25px;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__card {
+    padding: 24px 13px 261px 22px;
+  }
+
+  &__card-1 {
+    @include bgImg;
+    background-image: url("../img/card-1.png");
+  }
+
+  &__card-2 {
+    @include bgImg;
+    background-image: url("../img/card-2.png");
+  }
+
+  &__card-3 {
+    @include bgImg;
+    background-image: url("../img/card-3.png");
+  }
+
+  &__card-4 {
+    @include bgImg;
+    background-image: url("../img/card-4.png");
+  }
+
+  &__card-title {
+    font-family: var(--font-bold);
+    color: var(--white-color);
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 18px;
+    max-width: 164px;
+    line-height: 31px;
+  }
+
+  &__card-text {
+    font-family: var(--font-regular);
+    color: var(--white-color);
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 225px;
+  }
+}
