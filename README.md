@@ -3,7 +3,7 @@
 Страница организации, занимающейся телекоммуникациями. Содержит информацию о миссии организации, проектах, событиях, контактную информацию.
 Страница разработана только для разрешения - 1440px.
 
-![Company preview](https://github.com/vityan99/Telecommunication-company-page/blob/main/company-preview.png)
+![Company preview](https://github.com/vityan99/Telecommunication-company-page/blob/main/preview.png)
 
 ## Содержание
 
